@@ -1,0 +1,107 @@
+openapi: 3.0.0
+info:
+  title: Channel Layer API
+  description: API для кодирования и декодирования данных с имитацией ошибок.
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Локальный сервер (Transport Layer)
+
+paths:
+  /code:
+    post:
+      summary: Кодирование и декодирование данных с имитацией ошибок
+      description: >
+        Принимает JSON-данные, кодирует их с использованием циклического кода [7,4], 
+        вносит ошибки в кодированные данные, затем декодирует и возвращает результат.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                segment_number:
+                  type: integer
+                  description: Номер сегмента в сообщении
+                  example: 1
+                total_segments:
+                  type: integer
+                  description: Общее количество сегментов
+                  example: 5
+                username:
+                  type: string
+                  description: Имя пользователя, отправляющего сегмент
+                  example: "johndoe"
+                send_time:
+                  type: string
+                  format: date-time
+                  description: Время отправки сегмента в формате ISO 8601
+                  example: "2025-03-29T12:31:00Z"
+                payload:
+                  type: string
+                  description: Полезная нагрузка сегмента (основной содержимое сообщения)
+                  example: "Привет, это сегмент 1"
+      responses:
+        "200":
+          description: Успешный ответ, данные обработаны и декодированы
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseMessage'
+        "204":
+          description: Пакет утерян, запрос не может быть обработан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        "400":
+          description: Некорректный запрос, ошибка в формате или содержимом данных
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        "500":
+          description: Внутренняя ошибка сервера, произошла непредвиденная ошибка при обработке
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    ResponseMessage:
+      type: object
+      properties:
+        message:
+          type: string
+          description: Сообщение, возвращаемое сервером
+          example: "Операция прошла успешно"
+        status:
+          type: string
+          description: Статус выполнения операции
+          example: "success"
+        decoded_payload:
+          type: string
+          description: Декодированное сообщение, полученное после обработки
+          example: "Привет, это сегмент 1 с декодированными данными"
+        error_details:
+          type: string
+          description: Дополнительные детали ошибки, если имеются (например, для отладки)
+          example: "Ошибка в циклическом кодировании данных"
+      
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Описание ошибки, возникшей при обработке запроса
+          example: "Invalid input format"
+        error_code:
+          type: string
+          description: Код ошибки для облегчения обработки ошибок на клиентской стороне
+          example: "INVALID_FORMAT"
+        error_details:
+          type: string
+          description: Дополнительные детали ошибки для диагностики
+          example: "Недопустимый символ в полезной нагрузке"

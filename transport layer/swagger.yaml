@@ -1,0 +1,142 @@
+openapi: 3.0.0
+info:
+  title: Transport Layer API
+  description: API для сегментации и передачи сообщений через Kafka
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Локальный сервер разработки (Channel Layer)
+
+paths:
+  /send:
+    post:
+      summary: Отправка сообщения
+      description: Разбивает сообщение на сегменты и отправляет их через Kafka. Используется для начала процесса сегментации сообщения.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  description: Имя пользователя, отправляющего сообщение.
+                  example: "johndoe"
+                data:
+                  type: string
+                  description: Текст сообщения, которое будет отправлено.
+                  example: "Привет, как дела?"
+                send_time:
+                  type: string
+                  format: date-time
+                  description: Время отправки сообщения в формате ISO 8601.
+                  example: "2025-03-29T12:30:00Z"
+      responses:
+        200:
+          description: Сообщение успешно принято и сегментировано.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "success"
+                  message:
+                    type: string
+                    example: "Message segmented and sent successfully."
+        400:
+          description: Некорректный запрос, возможно, отсутствуют обязательные поля или данные имеют неверный формат.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Invalid request data."
+
+  /transfer:
+    post:
+      summary: Передача сегмента
+      description: Отправляет отдельный сегмент сообщения в Kafka. Используется для передачи части сообщения.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                segment_number:
+                  type: integer
+                  description: Номер сегмента в сообщении (начиная с 1).
+                  example: 1
+                total_segments:
+                  type: integer
+                  description: Общее количество сегментов в сообщении.
+                  example: 5
+                username:
+                  type: string
+                  description: Имя пользователя, отправившего сегмент.
+                  example: "johndoe"
+                send_time:
+                  type: string
+                  format: date-time
+                  description: Время отправки сегмента в формате ISO 8601.
+                  example: "2025-03-29T12:31:00Z"
+                payload:
+                  type: string
+                  description: Полезная нагрузка сегмента (текстовая часть сегмента).
+                  example: "Привет, это сегмент 1"
+      responses:
+        200:
+          description: Сегмент успешно передан.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "success"
+                  segment_number:
+                    type: integer
+                    example: 1
+        400:
+          description: Ошибка в данных сегмента (например, некорректные значения или недостающие данные).
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Segment data is invalid."
+
+components:
+  schemas:
+    Segment:
+      type: object
+      properties:
+        segment_number:
+          type: integer
+          description: Номер сегмента в сообщении, начиная с 1.
+          example: 1
+        total_segments:
+          type: integer
+          description: Общее количество сегментов в сообщении.
+          example: 5
+        username:
+          type: string
+          description: Имя пользователя, отправившего сегмент.
+          example: "johndoe"
+        send_time:
+          type: string
+          format: date-time
+          description: Время отправки сегмента в формате ISO 8601.
+          example: "2025-03-29T12:31:00Z"
+        payload:
+          type: string
+          description: Полезная нагрузка сегмента (текстовая часть сегмента).
+          example: "Привет, это сегмент 1"
