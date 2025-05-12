@@ -12,15 +12,6 @@
 			"name": "Model",
 			"ownedElements": [
 				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Main",
-					"defaultDiagram": true
-				},
-				{
 					"_type": "UMLDeploymentDiagram",
 					"_id": "AAAAAAGNihxeH5MwNqQ=",
 					"_parent": {
@@ -58,7 +49,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
+											"left": -32,
 											"top": -96,
 											"height": 13
 										},
@@ -71,7 +62,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 893,
+											"left": 901,
 											"top": 329,
 											"width": 118,
 											"height": 13,
@@ -87,7 +78,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
+											"left": -32,
 											"top": -96,
 											"width": 73.67724609375,
 											"height": 13,
@@ -103,7 +94,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
+											"left": -32,
 											"top": -96,
 											"height": 13,
 											"horizontalAlignment": 1
@@ -112,7 +103,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 888,
+									"left": 896,
 									"top": 322,
 									"width": 128,
 									"height": 25,
@@ -142,7 +133,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -24,
+									"left": -16,
 									"top": -48,
 									"width": 10,
 									"height": 10
@@ -160,7 +151,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -24,
+									"left": -16,
 									"top": -48,
 									"width": 10,
 									"height": 10
@@ -178,7 +169,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -24,
+									"left": -16,
 									"top": -48,
 									"width": 10,
 									"height": 10
@@ -196,7 +187,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -24,
+									"left": -16,
 									"top": -48,
 									"width": 10,
 									"height": 10
@@ -206,7 +197,7 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 888,
+							"left": 896,
 							"top": 312,
 							"width": 137,
 							"height": 89,
@@ -258,7 +249,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 480,
+											"left": 496,
 											"top": -416,
 											"height": 13
 										},
@@ -271,7 +262,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 893,
+											"left": 901,
 											"top": 209,
 											"width": 118,
 											"height": 13,
@@ -287,7 +278,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 480,
+											"left": 496,
 											"top": -416,
 											"width": 73.67724609375,
 											"height": 13,
@@ -303,7 +294,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 480,
+											"left": 496,
 											"top": -416,
 											"height": 13,
 											"horizontalAlignment": 1
@@ -312,7 +303,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 888,
+									"left": 896,
 									"top": 202,
 									"width": 128,
 									"height": 25,
@@ -342,7 +333,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 240,
+									"left": 248,
 									"top": -208,
 									"width": 10,
 									"height": 10
@@ -360,7 +351,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 240,
+									"left": 248,
 									"top": -208,
 									"width": 10,
 									"height": 10
@@ -378,7 +369,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 240,
+									"left": 248,
 									"top": -208,
 									"width": 10,
 									"height": 10
@@ -396,7 +387,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 240,
+									"left": 248,
 									"top": -208,
 									"width": 10,
 									"height": 10
@@ -406,7 +397,7 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 888,
+							"left": 896,
 							"top": 192,
 							"width": 137,
 							"height": 89,
@@ -474,8 +465,8 @@
 											"left": 117,
 											"top": 209,
 											"width": 162.580078125,
-											"height": 26,
-											"text": "Ноутбук канальный уровень",
+											"height": 39,
+											"text": "Ноутбук канальный уровень: MackBook Pro M3",
 											"wordWrap": true
 										},
 										{
@@ -516,7 +507,7 @@
 									"left": 112,
 									"top": 202,
 									"width": 172.580078125,
-									"height": 38,
+									"height": 51,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGNihyD/ZM41/I="
 									},
@@ -660,8 +651,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
-											"top": -144,
+											"left": -32,
+											"top": 176,
 											"height": 13
 										},
 										{
@@ -673,11 +664,11 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 317,
-											"top": 209,
-											"width": 310,
+											"left": 325,
+											"top": 369,
+											"width": 533,
 											"height": 13,
-											"text": "Ноутбук транспортный уровень"
+											"text": "Ноутбук марс: MackBook Pro M4"
 										},
 										{
 											"_type": "LabelView",
@@ -689,8 +680,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
-											"top": -144,
+											"left": -32,
+											"top": 176,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -705,8 +696,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
-											"top": -144,
+											"left": -32,
+											"top": 176,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -714,9 +705,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 312,
-									"top": 202,
-									"width": 320,
+									"left": 320,
+									"top": 362,
+									"width": 543,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGNihyNDZNhPo4="
@@ -744,8 +735,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -72,
+									"left": -24,
+									"top": 88,
 									"width": 10,
 									"height": 10
 								},
@@ -762,8 +753,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -72,
+									"left": -24,
+									"top": 88,
 									"width": 10,
 									"height": 10
 								},
@@ -780,8 +771,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -72,
+									"left": -24,
+									"top": 88,
 									"width": 10,
 									"height": 10
 								},
@@ -798,8 +789,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -72,
+									"left": -24,
+									"top": 88,
 									"width": 10,
 									"height": 10
 								}
@@ -808,10 +799,10 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 312,
-							"top": 192,
-							"width": 329,
-							"height": 417,
+							"left": 320,
+							"top": 352,
+							"width": 552,
+							"height": 256,
 							"nameCompartment": {
 								"$ref": "AAAAAAGNihyNDZNgiEI="
 							},
@@ -860,7 +851,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -16,
+											"left": -688,
 											"top": -128,
 											"height": 13
 										},
@@ -873,11 +864,11 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 661,
+											"left": 325,
 											"top": 209,
-											"width": 206,
+											"width": 533,
 											"height": 13,
-											"text": "Ноутбук прикладной уровень",
+											"text": "Ноутук земля: Honor magic book 16\"",
 											"wordWrap": true
 										},
 										{
@@ -890,7 +881,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -16,
+											"left": -688,
 											"top": -128,
 											"width": 73.67724609375,
 											"height": 13,
@@ -906,7 +897,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -16,
+											"left": -688,
 											"top": -128,
 											"horizontalAlignment": 1,
 											"wordWrap": true
@@ -915,9 +906,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 656,
+									"left": 320,
 									"top": 202,
-									"width": 216,
+									"width": 543,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGNihyXQ5OKJm0="
@@ -945,7 +936,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -64,
+									"left": -400,
 									"top": -104,
 									"width": 10,
 									"height": 10
@@ -963,7 +954,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -64,
+									"left": -400,
 									"top": -104,
 									"width": 10,
 									"height": 10
@@ -981,7 +972,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -64,
+									"left": -400,
 									"top": -104,
 									"width": 10,
 									"height": 10
@@ -999,7 +990,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -64,
+									"left": -400,
 									"top": -104,
 									"width": 10,
 									"height": 10
@@ -1009,10 +1000,10 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 656,
+							"left": 320,
 							"top": 192,
-							"width": 225,
-							"height": 417,
+							"width": 552,
+							"height": 152,
 							"nameCompartment": {
 								"$ref": "AAAAAAGNihyXQ5OJ5+A="
 							},
@@ -1062,7 +1053,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 496,
+											"left": 512,
 											"top": -80,
 											"height": 13
 										},
@@ -1075,7 +1066,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 921,
+											"left": 929,
 											"top": 231,
 											"width": 79.990234375,
 											"height": 26,
@@ -1092,11 +1083,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 496,
+											"left": 512,
 											"top": -80,
-											"width": 73.67724609375,
+											"width": 121.00537109375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from iPhone Земля)"
 										},
 										{
 											"_type": "LabelView",
@@ -1108,7 +1099,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 496,
+											"left": 512,
 											"top": -80,
 											"horizontalAlignment": 1,
 											"wordWrap": true
@@ -1117,7 +1108,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 916,
+									"left": 924,
 									"top": 224,
 									"width": 89.990234375,
 									"height": 38,
@@ -1147,7 +1138,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 248,
+									"left": 256,
 									"top": -40,
 									"width": 10,
 									"height": 10
@@ -1165,7 +1156,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 248,
+									"left": 256,
 									"top": -40,
 									"width": 10,
 									"height": 10
@@ -1183,7 +1174,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 248,
+									"left": 256,
 									"top": -40,
 									"width": 10,
 									"height": 10
@@ -1201,7 +1192,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 248,
+									"left": 256,
 									"top": -40,
 									"width": 10,
 									"height": 10
@@ -1211,7 +1202,7 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 896,
+							"left": 904,
 							"top": 224,
 							"width": 108.990234375,
 							"height": 45,
@@ -1264,8 +1255,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 64,
-											"top": -224,
+											"left": 32,
+											"top": -240,
 											"height": 13
 										},
 										{
@@ -1277,8 +1268,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 713,
-											"top": 271,
+											"left": 697,
+											"top": 263,
 											"width": 124,
 											"height": 26,
 											"text": "Веб-сокет сервер Земля:8001",
@@ -1294,11 +1285,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 64,
-											"top": -224,
-											"width": 73.67724609375,
+											"left": 32,
+											"top": -240,
+											"width": 255.15673828125,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутук земля: Honor magic book 16\")"
 										},
 										{
 											"_type": "LabelView",
@@ -1310,8 +1301,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 64,
-											"top": -224,
+											"left": 32,
+											"top": -240,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -1319,8 +1310,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 708,
-									"top": 264,
+									"left": 692,
+									"top": 256,
 									"width": 134,
 									"height": 38,
 									"stereotypeLabel": {
@@ -1349,8 +1340,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 32,
-									"top": -112,
+									"left": 16,
+									"top": -120,
 									"width": 10,
 									"height": 10
 								},
@@ -1367,8 +1358,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 32,
-									"top": -112,
+									"left": 16,
+									"top": -120,
 									"width": 10,
 									"height": 10
 								},
@@ -1385,8 +1376,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 32,
-									"top": -112,
+									"left": 16,
+									"top": -120,
 									"width": 10,
 									"height": 10
 								},
@@ -1403,8 +1394,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 32,
-									"top": -112,
+									"left": 16,
+									"top": -120,
 									"width": 10,
 									"height": 10
 								}
@@ -1413,8 +1404,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 688,
-							"top": 264,
+							"left": 672,
+							"top": 256,
 							"width": 153,
 							"height": 45,
 							"nameCompartment": {
@@ -1466,7 +1457,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"top": 64,
+											"top": 368,
 											"height": 13
 										},
 										{
@@ -1479,7 +1470,7 @@
 											"parentStyle": true,
 											"showShadow": false,
 											"left": 161,
-											"top": 343,
+											"top": 495,
 											"width": 95.29443359375,
 											"height": 65,
 											"text": "Сервис кодирования и эмуляция межпланетной передачи",
@@ -1495,10 +1486,10 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"top": 64,
-											"width": 73.67724609375,
+											"top": 368,
+											"width": 321.70556640625,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутбук канальный уровень: MackBook Pro M3)"
 										},
 										{
 											"_type": "LabelView",
@@ -1510,7 +1501,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"top": 64,
+											"top": 368,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -1519,7 +1510,7 @@
 									"parentStyle": true,
 									"showShadow": false,
 									"left": 156,
-									"top": 336,
+									"top": 488,
 									"width": 105.29443359375,
 									"height": 77,
 									"stereotypeLabel": {
@@ -1548,7 +1539,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"top": 32,
+									"top": 184,
 									"width": 10,
 									"height": 10
 								},
@@ -1565,7 +1556,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"top": 32,
+									"top": 184,
 									"width": 10,
 									"height": 10
 								},
@@ -1582,7 +1573,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"top": 32,
+									"top": 184,
 									"width": 10,
 									"height": 10
 								},
@@ -1599,7 +1590,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"top": 32,
+									"top": 184,
 									"width": 10,
 									"height": 10
 								}
@@ -1609,7 +1600,7 @@
 							"showShadow": false,
 							"containerChangeable": true,
 							"left": 136,
-							"top": 336,
+							"top": 488,
 							"width": 124.29443359375,
 							"height": 89,
 							"nameCompartment": {
@@ -1661,8 +1652,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -112,
-											"top": -128,
+											"left": -128,
+											"top": -112,
 											"height": 13
 										},
 										{
@@ -1674,8 +1665,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 401,
-											"top": 247,
+											"left": 393,
+											"top": 255,
 											"width": 84,
 											"height": 39,
 											"text": "Разбиение на сегменты и отправка",
@@ -1691,11 +1682,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -112,
-											"top": -128,
-											"width": 73.67724609375,
+											"left": -128,
+											"top": -112,
+											"width": 255.15673828125,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутук земля: Honor magic book 16\")"
 										},
 										{
 											"_type": "LabelView",
@@ -1707,8 +1698,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -112,
-											"top": -128,
+											"left": -128,
+											"top": -112,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -1716,8 +1707,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 396,
-									"top": 240,
+									"left": 388,
+									"top": 248,
 									"width": 94,
 									"height": 51,
 									"stereotypeLabel": {
@@ -1746,8 +1737,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -56,
-									"top": -64,
+									"left": -64,
+									"top": -56,
 									"width": 10,
 									"height": 10
 								},
@@ -1764,8 +1755,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -56,
-									"top": -64,
+									"left": -64,
+									"top": -56,
 									"width": 10,
 									"height": 10
 								},
@@ -1782,8 +1773,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -56,
-									"top": -64,
+									"left": -64,
+									"top": -56,
 									"width": 10,
 									"height": 10
 								},
@@ -1800,8 +1791,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -56,
-									"top": -64,
+									"left": -64,
+									"top": -56,
 									"width": 10,
 									"height": 10
 								}
@@ -1810,8 +1801,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 376,
-							"top": 240,
+							"left": 368,
+							"top": 248,
 							"width": 113,
 							"height": 51,
 							"nameCompartment": {
@@ -1863,8 +1854,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 144,
-											"top": 384,
+											"left": 112,
+											"top": 576,
 											"height": 13
 										},
 										{
@@ -1876,8 +1867,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 537,
-											"top": 439,
+											"left": 521,
+											"top": 535,
 											"width": 80.44091796875,
 											"height": 13,
 											"text": "Kafka"
@@ -1892,11 +1883,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 144,
-											"top": 384,
-											"width": 73.67724609375,
+											"left": 112,
+											"top": 576,
+											"width": 233.4794921875,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутбук марс: MackBook Pro M4)"
 										},
 										{
 											"_type": "LabelView",
@@ -1908,8 +1899,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 144,
-											"top": 384,
+											"left": 112,
+											"top": 576,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -1917,8 +1908,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 532,
-									"top": 432,
+									"left": 516,
+									"top": 528,
 									"width": 90.44091796875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1947,8 +1938,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 72,
-									"top": 192,
+									"left": -16,
+									"top": 392,
 									"width": 10,
 									"height": 10
 								},
@@ -1965,8 +1956,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 72,
-									"top": 192,
+									"left": -16,
+									"top": 392,
 									"width": 10,
 									"height": 10
 								},
@@ -1983,8 +1974,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 72,
-									"top": 192,
+									"left": -16,
+									"top": 392,
 									"width": 10,
 									"height": 10
 								},
@@ -2001,8 +1992,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 72,
-									"top": 192,
+									"left": -16,
+									"top": 392,
 									"width": 10,
 									"height": 10
 								}
@@ -2011,8 +2002,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 512,
-							"top": 432,
+							"left": 496,
+							"top": 528,
 							"width": 109.44091796875,
 							"height": 45,
 							"nameCompartment": {
@@ -2063,8 +2054,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 144,
-											"top": 616,
+											"left": 112,
+											"top": 392,
 											"width": 64.32080078125,
 											"height": 13,
 											"text": "«interface»"
@@ -2078,8 +2069,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 693,
-											"top": 575,
+											"left": 677,
+											"top": 463,
 											"width": 134.833984375,
 											"height": 13,
 											"text": "Receive (сообщение)"
@@ -2094,11 +2085,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 144,
-											"top": 616,
-											"width": 73.67724609375,
+											"left": 112,
+											"top": 392,
+											"width": 233.4794921875,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутбук марс: MackBook Pro M4)"
 										},
 										{
 											"_type": "LabelView",
@@ -2110,8 +2101,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 144,
-											"top": 616,
+											"left": 112,
+											"top": 392,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -2119,8 +2110,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 688,
-									"top": 568,
+									"left": 672,
+									"top": 456,
 									"width": 144.833984375,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2149,8 +2140,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 72,
-									"top": 308,
+									"left": 56,
+									"top": 196,
 									"width": 10,
 									"height": 10
 								},
@@ -2167,8 +2158,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 72,
-									"top": 308,
+									"left": 56,
+									"top": 196,
 									"width": 10,
 									"height": 10
 								},
@@ -2185,8 +2176,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 72,
-									"top": 308,
+									"left": 56,
+									"top": 196,
 									"width": 10,
 									"height": 10
 								},
@@ -2203,8 +2194,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 72,
-									"top": 308,
+									"left": 56,
+									"top": 196,
 									"width": 10,
 									"height": 10
 								}
@@ -2213,8 +2204,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 688,
-							"top": 544,
+							"left": 672,
+							"top": 432,
 							"width": 143.833984375,
 							"height": 49,
 							"stereotypeDisplay": "icon",
@@ -2259,8 +2250,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 773,
-									"top": 524,
+									"left": 728,
+									"top": 484,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2282,8 +2273,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 788,
-									"top": 524,
+									"left": 713,
+									"top": 484,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2305,8 +2296,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 744,
-									"top": 525,
+									"left": 757,
+									"top": 485,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2326,7 +2317,7 @@
 								"$ref": "AAAAAAGUwaGZSuU3vN0="
 							},
 							"lineStyle": 1,
-							"points": "760:518;759:544",
+							"points": "744:527;743:456",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNih8jBpTPnes="
@@ -2368,7 +2359,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 240,
+											"left": 272,
 											"top": 120,
 											"width": 64.32080078125,
 											"height": 13,
@@ -2383,7 +2374,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 501,
+											"left": 517,
 											"top": 308,
 											"width": 117.466796875,
 											"height": 13,
@@ -2400,11 +2391,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 240,
+											"left": 272,
 											"top": 120,
-											"width": 73.67724609375,
+											"width": 255.15673828125,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутук земля: Honor magic book 16\")"
 										},
 										{
 											"_type": "LabelView",
@@ -2416,7 +2407,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 240,
+											"left": 272,
 											"top": 120,
 											"horizontalAlignment": 1,
 											"wordWrap": true
@@ -2425,7 +2416,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 496,
+									"left": 512,
 									"top": 301,
 									"width": 127.466796875,
 									"height": 25,
@@ -2455,7 +2446,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 120,
+									"left": 136,
 									"top": 60,
 									"width": 10,
 									"height": 10
@@ -2473,7 +2464,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 120,
+									"left": 136,
 									"top": 60,
 									"width": 10,
 									"height": 10
@@ -2491,7 +2482,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 120,
+									"left": 136,
 									"top": 60,
 									"width": 10,
 									"height": 10
@@ -2509,7 +2500,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 120,
+									"left": 136,
 									"top": 60,
 									"width": 10,
 									"height": 10
@@ -2519,7 +2510,7 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 496,
+							"left": 512,
 							"top": 264,
 							"width": 126.466796875,
 							"height": 62,
@@ -2566,8 +2557,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 515,
-									"top": 259,
+									"left": 519,
+									"top": 261,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2589,8 +2580,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 516,
-									"top": 244,
+									"left": 519,
+									"top": 246,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2612,8 +2603,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 514,
-									"top": 288,
+									"left": 518,
+									"top": 290,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2633,7 +2624,7 @@
 								"$ref": "AAAAAAGNih5RiZRMlWw="
 							},
 							"lineStyle": 1,
-							"points": "490:279;540.7333984375:281.4291687011719",
+							"points": "482:281;556.7333984375:283.14166259765625",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiAOvJUMN74="
@@ -2709,9 +2700,9 @@
 											"showShadow": false,
 											"left": 96,
 											"top": 104,
-											"width": 73.67724609375,
+											"width": 321.70556640625,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутбук канальный уровень: MackBook Pro M3)"
 										},
 										{
 											"_type": "LabelView",
@@ -2873,8 +2864,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 181,
-									"top": 307,
+									"left": 182,
+									"top": 384,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2896,8 +2887,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 166,
-									"top": 307,
+									"left": 167,
+									"top": 384,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2919,8 +2910,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 210,
-									"top": 308,
+									"left": 211,
+									"top": 383,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2940,7 +2931,7 @@
 								"$ref": "AAAAAAGNih3HzpQcVfs="
 							},
 							"lineStyle": 1,
-							"points": "197:335;196.42222222222222:293",
+							"points": "198:487;196:293",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiBNjZVIiA0="
@@ -2982,8 +2973,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -96,
-											"top": 288,
+											"left": 208,
+											"top": 48,
 											"height": 13
 										},
 										{
@@ -2995,8 +2986,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 377,
-											"top": 535,
+											"left": 529,
+											"top": 415,
 											"width": 116,
 											"height": 26,
 											"text": "Consumer Сборка сегментов",
@@ -3012,11 +3003,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -96,
-											"top": 288,
-											"width": 73.67724609375,
+											"left": 208,
+											"top": 48,
+											"width": 233.4794921875,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутбук марс: MackBook Pro M4)"
 										},
 										{
 											"_type": "LabelView",
@@ -3028,8 +3019,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -96,
-											"top": 288,
+											"left": 208,
+											"top": 48,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -3037,8 +3028,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 372,
-									"top": 528,
+									"left": 524,
+									"top": 408,
 									"width": 126,
 									"height": 38,
 									"stereotypeLabel": {
@@ -3067,8 +3058,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -48,
-									"top": 144,
+									"left": 248,
+									"top": -104,
 									"width": 10,
 									"height": 10
 								},
@@ -3085,8 +3076,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -48,
-									"top": 144,
+									"left": 248,
+									"top": -104,
 									"width": 10,
 									"height": 10
 								},
@@ -3103,8 +3094,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -48,
-									"top": 144,
+									"left": 248,
+									"top": -104,
 									"width": 10,
 									"height": 10
 								},
@@ -3121,8 +3112,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -48,
-									"top": 144,
+									"left": 248,
+									"top": -104,
 									"width": 10,
 									"height": 10
 								}
@@ -3131,8 +3122,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 352,
-							"top": 528,
+							"left": 504,
+							"top": 408,
 							"width": 145,
 							"height": 51,
 							"nameCompartment": {
@@ -3184,8 +3175,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -160,
-											"top": 168,
+											"left": -128,
+											"top": 472,
 											"width": 64.32080078125,
 											"height": 13,
 											"text": "«interface»"
@@ -3199,8 +3190,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 325,
-											"top": 399,
+											"left": 341,
+											"top": 551,
 											"width": 115.51171875,
 											"height": 13,
 											"text": "Transfer (сегмент)"
@@ -3215,11 +3206,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -160,
-											"top": 168,
-											"width": 73.67724609375,
+											"left": -128,
+											"top": 472,
+											"width": 233.4794921875,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутбук марс: MackBook Pro M4)"
 										},
 										{
 											"_type": "LabelView",
@@ -3231,8 +3222,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -160,
-											"top": 168,
+											"left": -128,
+											"top": 472,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -3240,8 +3231,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 320,
-									"top": 392,
+									"left": 336,
+									"top": 544,
 									"width": 125.51171875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -3270,8 +3261,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -72,
-									"top": 84,
+									"left": -56,
+									"top": 236,
 									"width": 10,
 									"height": 10
 								},
@@ -3288,8 +3279,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -72,
-									"top": 84,
+									"left": -56,
+									"top": 236,
 									"width": 10,
 									"height": 10
 								},
@@ -3306,8 +3297,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -72,
-									"top": 84,
+									"left": -56,
+									"top": 236,
 									"width": 10,
 									"height": 10
 								},
@@ -3324,8 +3315,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -72,
-									"top": 84,
+									"left": -56,
+									"top": 236,
 									"width": 10,
 									"height": 10
 								}
@@ -3334,8 +3325,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 320,
-							"top": 368,
+							"left": 336,
+							"top": 520,
 							"width": 124.51171875,
 							"height": 49,
 							"stereotypeDisplay": "icon",
@@ -3380,8 +3371,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 367,
-									"top": 404,
+									"left": 413,
+									"top": 484,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3403,8 +3394,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 352,
-									"top": 404,
+									"left": 428,
+									"top": 484,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3426,8 +3417,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 396,
-									"top": 405,
+									"left": 384,
+									"top": 483,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3447,7 +3438,7 @@
 								"$ref": "AAAAAAGNiiG0pJXLspc="
 							},
 							"lineStyle": 1,
-							"points": "383:431;382.3157894736842:392",
+							"points": "400:460;398:520",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiCjWZWtXzc="
@@ -3489,8 +3480,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -80,
-											"top": 240,
+											"left": -48,
+											"top": 192,
 											"height": 13
 										},
 										{
@@ -3502,8 +3493,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 345,
-											"top": 439,
+											"left": 361,
+											"top": 415,
 											"width": 100,
 											"height": 39,
 											"text": "Producer Получение сегментов",
@@ -3519,11 +3510,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -80,
-											"top": 240,
-											"width": 73.67724609375,
+											"left": -48,
+											"top": 192,
+											"width": 233.4794921875,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутбук марс: MackBook Pro M4)"
 										},
 										{
 											"_type": "LabelView",
@@ -3535,8 +3526,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -80,
-											"top": 240,
+											"left": -48,
+											"top": 192,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -3544,8 +3535,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 340,
-									"top": 432,
+									"left": 356,
+									"top": 408,
 									"width": 110,
 									"height": 51,
 									"stereotypeLabel": {
@@ -3574,8 +3565,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -40,
-									"top": 120,
+									"left": -24,
+									"top": 96,
 									"width": 10,
 									"height": 10
 								},
@@ -3592,8 +3583,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -40,
-									"top": 120,
+									"left": -24,
+									"top": 96,
 									"width": 10,
 									"height": 10
 								},
@@ -3610,8 +3601,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -40,
-									"top": 120,
+									"left": -24,
+									"top": 96,
 									"width": 10,
 									"height": 10
 								},
@@ -3628,8 +3619,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -40,
-									"top": 120,
+									"left": -24,
+									"top": 96,
 									"width": 10,
 									"height": 10
 								}
@@ -3638,8 +3629,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 320,
-							"top": 432,
+							"left": 336,
+							"top": 408,
 							"width": 129,
 							"height": 51,
 							"nameCompartment": {
@@ -3683,8 +3674,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 228,
-									"top": 255,
+									"left": 225,
+									"top": 257,
 									"width": 41.53271484375,
 									"height": 13,
 									"alpha": -0.30230192709178016,
@@ -3708,8 +3699,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 296,
-									"top": 296,
+									"left": 291,
+									"top": 300,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3731,8 +3722,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 294,
-									"top": 252,
+									"left": 290,
+									"top": 256,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3752,7 +3743,7 @@
 								"$ref": "AAAAAAGNih5RiZRMlWw="
 							},
 							"lineStyle": 1,
-							"points": "375:270;215.35498046875:276.81526988636364",
+							"points": "367:277;215.35498046875:277.51908735795456",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiHs2JX5JT0="
@@ -3786,12 +3777,12 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 318,
-									"top": 352,
+									"left": 320,
+									"top": 512,
 									"width": 41.53271484375,
 									"height": 13,
-									"alpha": 0.7800294400721718,
-									"distance": 33.24154027718932,
+									"alpha": 0.7470626491492454,
+									"distance": 23.345235059857504,
 									"hostEdge": {
 										"$ref": "AAAAAAGNiiH3Z5YJ/XA="
 									},
@@ -3811,8 +3802,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 314,
-									"top": 346,
+									"left": 322,
+									"top": 498,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3834,8 +3825,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 315,
-									"top": 390,
+									"left": 323,
+									"top": 542,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3855,7 +3846,7 @@
 								"$ref": "AAAAAAGNih3HzpQcVfs="
 							},
 							"lineStyle": 1,
-							"points": "261:384;370.255859375:381.49131944444446",
+							"points": "261:536;386.255859375:533.4913194444445",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiH3Z5YKTxE="
@@ -3889,12 +3880,12 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 575,
-									"top": 559,
+									"left": 668,
+									"top": 428,
 									"width": 41.53271484375,
 									"height": 13,
-									"alpha": -2.7701356843731095,
-									"distance": 27.85677655436824,
+									"alpha": -4.469075712676788,
+									"distance": 8.246211251235321,
 									"hostEdge": {
 										"$ref": "AAAAAAGNiiIy+pYbr4k="
 									},
@@ -3914,8 +3905,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 622,
-									"top": 520,
+									"left": 690,
+									"top": 407,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3937,8 +3928,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 621,
-									"top": 564,
+									"left": 689,
+									"top": 451,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3958,7 +3949,7 @@
 								"$ref": "AAAAAAGNiiCCj5Vb1eI="
 							},
 							"lineStyle": 1,
-							"points": "498:556;747.9169921875:557.3853759765625",
+							"points": "650:443;731.9169921875:444.307861328125",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiIy+pYcUWY="
@@ -3992,12 +3983,12 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 584,
+									"left": 608,
 									"top": 263,
 									"width": 41.53271484375,
 									"height": 13,
-									"alpha": -0.4993778120579502,
-									"distance": 32.2490309931942,
+									"alpha": -1.2853468045534995,
+									"distance": 15.524174696260024,
 									"hostEdge": {
 										"$ref": "AAAAAAGNiiI/xpYs4WE="
 									},
@@ -4018,7 +4009,7 @@
 									"parentStyle": false,
 									"showShadow": false,
 									"left": 631,
-									"top": 309,
+									"top": 308,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4041,7 +4032,7 @@
 									"parentStyle": false,
 									"showShadow": false,
 									"left": 632,
-									"top": 265,
+									"top": 264,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4061,7 +4052,7 @@
 								"$ref": "AAAAAAGNih1UjpPl2SE="
 							},
 							"lineStyle": 1,
-							"points": "687:289;577.7333984375:284.9270935058594",
+							"points": "671:286;593.7333984375:284.04896545410156",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiI/x5YtDMg="
@@ -4096,8 +4087,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 871,
-									"top": 271,
+									"left": 866,
+									"top": 268,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -4119,8 +4110,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 874,
-									"top": 286,
+									"left": 868,
+									"top": 283,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4142,8 +4133,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 864,
-									"top": 242,
+									"left": 861,
+									"top": 239,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4163,7 +4154,7 @@
 								"$ref": "AAAAAAGNihz2EJO4oMI="
 							},
 							"lineStyle": 1,
-							"points": "895:258;842:269",
+							"points": "903:254;826:266",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiJwuZY+rzQ="
@@ -4197,12 +4188,12 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 778,
-									"top": 335,
+									"left": 764,
+									"top": 320,
 									"width": 73.82958984375,
 									"height": 13,
-									"alpha": -2.3981402494213806,
-									"distance": 47.29693436154187,
+									"alpha": -2.65658282161106,
+									"distance": 55.14526271584895,
 									"hostEdge": {
 										"$ref": "AAAAAAGNiiJ6J5ZOz9U="
 									},
@@ -4222,8 +4213,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 870,
-									"top": 292,
+									"left": 866,
+									"top": 288,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4245,8 +4236,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 853,
-									"top": 333,
+									"left": 849,
+									"top": 329,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4266,7 +4257,7 @@
 								"$ref": "AAAAAAGNih1UjpPl2SE="
 							},
 							"lineStyle": 1,
-							"points": "820:310;898:343",
+							"points": "806:302;905:343",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiJ6J5ZPtVs="
@@ -4300,12 +4291,12 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 448,
-									"top": 400,
+									"left": 424,
+									"top": 468,
 									"width": 134.08154296875,
 									"height": 26,
-									"alpha": 0.8760579100829873,
-									"distance": 54.67174773134658,
+									"alpha": 1.4144619779335668,
+									"distance": 17.69180601295413,
 									"hostEdge": {
 										"$ref": "AAAAAAGNiiKwHZZiI6s="
 									},
@@ -4326,8 +4317,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 480,
-									"top": 419,
+									"left": 496,
+									"top": 463,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4349,8 +4340,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 480,
-									"top": 464,
+									"left": 468,
+									"top": 498,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4370,7 +4361,7 @@
 								"$ref": "AAAAAAGNiiG0pJXLspc="
 							},
 							"lineStyle": 1,
-							"points": "450:456;511:455",
+							"points": "435:460;521:527",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiKwHZZjmSk="
@@ -4404,12 +4395,12 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 512,
-									"top": 515,
+									"left": 568,
+									"top": 472,
 									"width": 92,
 									"height": 26,
-									"alpha": -0.9987193794149397,
-									"distance": 67.62396025078685,
+									"alpha": 1.9264905613842054,
+									"distance": 52.61178575186362,
 									"hostEdge": {
 										"$ref": "AAAAAAGNiiLcz5Z0vBI="
 									},
@@ -4430,8 +4421,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 479,
-									"top": 471,
+									"left": 591,
+									"top": 493,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4453,8 +4444,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 504,
-									"top": 508,
+									"left": 547,
+									"top": 483,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4474,7 +4465,7 @@
 								"$ref": "AAAAAAGNiiCCj5Vb1eI="
 							},
 							"lineStyle": 1,
-							"points": "461:527;532:478",
+							"points": "570:460;555:527",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGNiiLcz5Z15Fw="
@@ -4516,7 +4507,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 192,
+											"left": 208,
 											"height": 13
 										},
 										{
@@ -4528,7 +4519,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 921,
+											"left": 929,
 											"top": 351,
 											"width": 84,
 											"height": 26,
@@ -4545,10 +4536,10 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 192,
-											"width": 73.67724609375,
+											"left": 208,
+											"width": 128.91455078125,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from HONOR Земля)"
 										},
 										{
 											"_type": "LabelView",
@@ -4560,7 +4551,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 192,
+											"left": 208,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -4568,7 +4559,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 916,
+									"left": 924,
 									"top": 344,
 									"width": 94,
 									"height": 38,
@@ -4598,7 +4589,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 96,
+									"left": 104,
 									"width": 10,
 									"height": 10
 								},
@@ -4615,7 +4606,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 96,
+									"left": 104,
 									"width": 10,
 									"height": 10
 								},
@@ -4632,7 +4623,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 96,
+									"left": 104,
 									"width": 10,
 									"height": 10
 								},
@@ -4649,7 +4640,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 96,
+									"left": 104,
 									"width": 10,
 									"height": 10
 								}
@@ -4658,7 +4649,7 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 896,
+							"left": 904,
 							"top": 344,
 							"width": 113,
 							"height": 45,
@@ -4703,12 +4694,12 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 784,
-									"top": 239,
+									"left": 771,
+									"top": 224,
 									"width": 73.82958984375,
 									"height": 13,
-									"alpha": -3.665085408742349,
-									"distance": 50.92150822589606,
+									"alpha": -3.775298918513698,
+									"distance": 63.52952069707436,
 									"hostEdge": {
 										"$ref": "AAAAAAGO7YnaoCnpdSA="
 									},
@@ -4728,8 +4719,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 862,
-									"top": 227,
+									"left": 859,
+									"top": 224,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4751,8 +4742,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 870,
-									"top": 271,
+									"left": 866,
+									"top": 268,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4772,7 +4763,7 @@
 								"$ref": "AAAAAAGNih1UjpPl2SE="
 							},
 							"lineStyle": 1,
-							"points": "842:269;895:258",
+							"points": "826:266;903:254",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGO7YnaoCnqs2U="
@@ -4807,8 +4798,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 853,
-									"top": 333,
+									"left": 849,
+									"top": 329,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -4830,8 +4821,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 847,
-									"top": 347,
+									"left": 843,
+									"top": 343,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4853,8 +4844,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 864,
-									"top": 306,
+									"left": 860,
+									"top": 302,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4874,7 +4865,7 @@
 								"$ref": "AAAAAAGO7YXJ5CjUfZQ="
 							},
 							"lineStyle": 1,
-							"points": "898:343;820:310",
+							"points": "905:343;806:302",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGO7Yn66in/09w="
@@ -4916,7 +4907,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
+											"left": -32,
+											"top": -48,
 											"height": 13
 										},
 										{
@@ -4928,8 +4920,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 893,
-											"top": 537,
+											"left": 901,
+											"top": 513,
 											"width": 118,
 											"height": 13,
 											"text": "Galaxy Марс"
@@ -4944,7 +4936,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
+											"left": -32,
+											"top": -48,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -4959,7 +4952,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -48,
+											"left": -32,
+											"top": -48,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -4967,8 +4961,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 888,
-									"top": 530,
+									"left": 896,
+									"top": 506,
 									"width": 128,
 									"height": 25,
 									"stereotypeLabel": {
@@ -4997,7 +4991,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -24,
+									"left": -16,
+									"top": -88,
 									"width": 10,
 									"height": 10
 								},
@@ -5014,7 +5009,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -24,
+									"left": -16,
+									"top": -88,
 									"width": 10,
 									"height": 10
 								},
@@ -5031,7 +5027,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -24,
+									"left": -16,
+									"top": -88,
 									"width": 10,
 									"height": 10
 								},
@@ -5048,7 +5045,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -24,
+									"left": -16,
+									"top": -88,
 									"width": 10,
 									"height": 10
 								}
@@ -5057,8 +5055,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 888,
-							"top": 520,
+							"left": 896,
+							"top": 496,
 							"width": 137,
 							"height": 89,
 							"nameCompartment": {
@@ -5109,8 +5107,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -64,
-											"top": -16,
+											"left": -48,
+											"top": -64,
 											"height": 13
 										},
 										{
@@ -5122,8 +5120,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 921,
-											"top": 559,
+											"left": 929,
+											"top": 535,
 											"width": 79.990234375,
 											"height": 26,
 											"text": "React приложение",
@@ -5139,11 +5137,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -64,
-											"top": -16,
-											"width": 73.67724609375,
+											"left": -48,
+											"top": -64,
+											"width": 114.27685546875,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Galaxy Марс)"
 										},
 										{
 											"_type": "LabelView",
@@ -5155,8 +5153,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -64,
-											"top": -16,
+											"left": -48,
+											"top": -64,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -5164,8 +5162,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 916,
-									"top": 552,
+									"left": 924,
+									"top": 528,
 									"width": 89.990234375,
 									"height": 38,
 									"stereotypeLabel": {
@@ -5194,8 +5192,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -8,
+									"left": -24,
+									"top": -32,
 									"width": 10,
 									"height": 10
 								},
@@ -5212,8 +5210,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -8,
+									"left": -24,
+									"top": -32,
 									"width": 10,
 									"height": 10
 								},
@@ -5230,8 +5228,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -8,
+									"left": -24,
+									"top": -32,
 									"width": 10,
 									"height": 10
 								},
@@ -5248,8 +5246,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -8,
+									"left": -24,
+									"top": -32,
 									"width": 10,
 									"height": 10
 								}
@@ -5258,8 +5256,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 896,
-							"top": 552,
+							"left": 904,
+							"top": 528,
 							"width": 108.990234375,
 							"height": 45,
 							"nameCompartment": {
@@ -5311,8 +5309,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -64,
-											"top": -32,
+											"left": -96,
+											"top": 80,
 											"height": 13
 										},
 										{
@@ -5324,8 +5322,8 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": 705,
-											"top": 479,
+											"left": 689,
+											"top": 535,
 											"width": 132,
 											"height": 26,
 											"text": "Веб-сокет сервер Марс:8002",
@@ -5341,11 +5339,11 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -64,
-											"top": -32,
-											"width": 73.67724609375,
+											"left": -96,
+											"top": 80,
+											"width": 233.4794921875,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from Ноутбук марс: MackBook Pro M4)"
 										},
 										{
 											"_type": "LabelView",
@@ -5357,8 +5355,8 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"showShadow": false,
-											"left": -64,
-											"top": -32,
+											"left": -96,
+											"top": 80,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -5366,8 +5364,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": 700,
-									"top": 472,
+									"left": 684,
+									"top": 528,
 									"width": 142,
 									"height": 38,
 									"stereotypeLabel": {
@@ -5396,8 +5394,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -16,
+									"left": -48,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								},
@@ -5414,8 +5412,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -16,
+									"left": -48,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								},
@@ -5432,8 +5430,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -16,
+									"left": -48,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								},
@@ -5450,8 +5448,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"showShadow": false,
-									"left": -32,
-									"top": -16,
+									"left": -48,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								}
@@ -5460,8 +5458,8 @@
 							"parentStyle": false,
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 680,
-							"top": 472,
+							"left": 664,
+							"top": 528,
 							"width": 161,
 							"height": 45,
 							"nameCompartment": {
@@ -5506,8 +5504,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 861,
-									"top": 514,
+									"left": 864,
+									"top": 529,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -5529,8 +5527,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 867,
-									"top": 500,
+									"left": 864,
+									"top": 514,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -5552,8 +5550,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 850,
-									"top": 541,
+									"left": 864,
+									"top": 559,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -5573,7 +5571,7 @@
 								"$ref": "AAAAAAGUwaGZSuU3vN0="
 							},
 							"lineStyle": 1,
-							"points": "817:518;895:551",
+							"points": "826:550;903:550",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGUwaM2VOV2yWY="
@@ -5607,8 +5605,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 802,
-									"top": 544,
+									"left": 817,
+									"top": 565,
 									"width": 73.82958984375,
 									"height": 13,
 									"alpha": 1.128513353979062,
@@ -5632,8 +5630,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 844,
-									"top": 555,
+									"left": 863,
+									"top": 574,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -5655,8 +5653,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"showShadow": false,
-									"left": 861,
-									"top": 514,
+									"left": 864,
+									"top": 529,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -5676,7 +5674,7 @@
 								"$ref": "AAAAAAGUwaB3r+T5gPk="
 							},
 							"lineStyle": 1,
-							"points": "895:551;817:518",
+							"points": "903:550;826:550",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGUwaNGEeWHMgg="
@@ -5696,7 +5694,54 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Ноутбук канальный уровень"
+					"name": "Ноутбук канальный уровень: MackBook Pro M3",
+					"ownedElements": [
+						{
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGNih3HzpQaAkw=",
+							"_parent": {
+								"$ref": "AAAAAAGNihyD/JM0Wvk="
+							},
+							"name": "Сервис кодирования и эмуляция межпланетной передачи",
+							"ownedElements": [
+								{
+									"_type": "UMLInterfaceRealization",
+									"_id": "AAAAAAGNiiBNjZVG5UQ=",
+									"_parent": {
+										"$ref": "AAAAAAGNih3HzpQaAkw="
+									},
+									"source": {
+										"$ref": "AAAAAAGNih3HzpQaAkw="
+									},
+									"target": {
+										"$ref": "AAAAAAGNiiBNWpUdfBI="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGNiiH3Z5YHn6s=",
+									"_parent": {
+										"$ref": "AAAAAAGNih3HzpQaAkw="
+									},
+									"name": "HTTP",
+									"source": {
+										"$ref": "AAAAAAGNih3HzpQaAkw="
+									},
+									"target": {
+										"$ref": "AAAAAAGNiiCjJ5WC65k="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLInterface",
+							"_id": "AAAAAAGNiiBNWpUdfBI=",
+							"_parent": {
+								"$ref": "AAAAAAGNihyD/JM0Wvk="
+							},
+							"name": "Code (сегмент)"
+						}
+					]
 				},
 				{
 					"_type": "UMLNode",
@@ -5704,7 +5749,131 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Ноутбук транспортный уровень"
+					"name": "Ноутбук марс: MackBook Pro M4",
+					"ownedElements": [
+						{
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGNiiCCj5VZBCg=",
+							"_parent": {
+								"$ref": "AAAAAAGNihyNDZNd1zY="
+							},
+							"name": "Consumer Сборка сегментов",
+							"ownedElements": [
+								{
+									"_type": "UMLInterfaceRealization",
+									"_id": "AAAAAAGNiiCjWJWroOI=",
+									"_parent": {
+										"$ref": "AAAAAAGNiiCCj5VZBCg="
+									},
+									"source": {
+										"$ref": "AAAAAAGNiiG0o5XJF9w="
+									},
+									"target": {
+										"$ref": "AAAAAAGNiiCjJ5WC65k="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGNiiIy+pYZrZQ=",
+									"_parent": {
+										"$ref": "AAAAAAGNiiCCj5VZBCg="
+									},
+									"name": "HTTP",
+									"source": {
+										"$ref": "AAAAAAGNiiCCj5VZBCg="
+									},
+									"target": {
+										"$ref": "AAAAAAGNih8i05SkexQ="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGNiiG0o5XJF9w=",
+							"_parent": {
+								"$ref": "AAAAAAGNihyNDZNd1zY="
+							},
+							"name": "Producer Получение сегментов",
+							"ownedElements": [
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGNiiHs2JX2or0=",
+									"_parent": {
+										"$ref": "AAAAAAGNiiG0o5XJF9w="
+									},
+									"name": "HTTP",
+									"source": {
+										"$ref": "AAAAAAGNih5RiZRKT1k="
+									},
+									"target": {
+										"$ref": "AAAAAAGNiiBNWpUdfBI="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGNiiKwHZZgMpU=",
+									"_parent": {
+										"$ref": "AAAAAAGNiiG0o5XJF9w="
+									},
+									"name": "поместить в очередь",
+									"source": {
+										"$ref": "AAAAAAGNiiG0o5XJF9w="
+									},
+									"target": {
+										"$ref": "AAAAAAGNih7rwJR4H9E="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGNih7rwJR4H9E=",
+							"_parent": {
+								"$ref": "AAAAAAGNihyNDZNd1zY="
+							},
+							"name": "Kafka"
+						},
+						{
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGUwaGZSeU1e6Y=",
+							"_parent": {
+								"$ref": "AAAAAAGNihyNDZNd1zY="
+							},
+							"name": "Веб-сокет сервер Марс:8002",
+							"ownedElements": [
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGUwaM2U+VzPCI=",
+									"_parent": {
+										"$ref": "AAAAAAGUwaGZSeU1e6Y="
+									},
+									"source": {
+										"$ref": "AAAAAAGUwaGZSeU1e6Y="
+									},
+									"target": {
+										"$ref": "AAAAAAGUwaB3r+T3Zc0="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLInterface",
+							"_id": "AAAAAAGNiiCjJ5WC65k=",
+							"_parent": {
+								"$ref": "AAAAAAGNihyNDZNd1zY="
+							},
+							"name": "Transfer (сегмент)"
+						},
+						{
+							"_type": "UMLInterface",
+							"_id": "AAAAAAGNih8i05SkexQ=",
+							"_parent": {
+								"$ref": "AAAAAAGNihyNDZNd1zY="
+							},
+							"name": "Receive (сообщение)"
+						}
+					]
 				},
 				{
 					"_type": "UMLNode",
@@ -5712,318 +5881,116 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Ноутбук прикладной уровень"
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGNihz2EJO2yfo=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "React приложение",
+					"name": "Ноутук земля: Honor magic book 16\"",
 					"ownedElements": [
 						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGNiiJwuZY7EOs=",
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGNih1UjpPjbSQ=",
 							"_parent": {
-								"$ref": "AAAAAAGNihz2EJO2yfo="
+								"$ref": "AAAAAAGNihyXQ5OG2kI="
 							},
-							"source": {
-								"$ref": "AAAAAAGO7YXJ4yjSlsk="
-							},
-							"target": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
-							}
-						}
-					]
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGNih1UjpPjbSQ=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Веб-сокет сервер Земля:8001",
-					"ownedElements": [
-						{
-							"_type": "UMLInterfaceRealization",
-							"_id": "AAAAAAGNih8jBpTN6cY=",
-							"_parent": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
-							},
-							"source": {
-								"$ref": "AAAAAAGUwaGZSeU1e6Y="
-							},
-							"target": {
-								"$ref": "AAAAAAGNih8i05SkexQ="
-							}
+							"name": "Веб-сокет сервер Земля:8001",
+							"ownedElements": [
+								{
+									"_type": "UMLInterfaceRealization",
+									"_id": "AAAAAAGNih8jBpTN6cY=",
+									"_parent": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									},
+									"source": {
+										"$ref": "AAAAAAGUwaGZSeU1e6Y="
+									},
+									"target": {
+										"$ref": "AAAAAAGNih8i05SkexQ="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGNiiI/xpYqUC0=",
+									"_parent": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									},
+									"name": "HTTP",
+									"source": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									},
+									"target": {
+										"$ref": "AAAAAAGNiiAOipThx+A="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGNiiJ6J5ZMsC8=",
+									"_parent": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									},
+									"name": "WebSocket",
+									"source": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									},
+									"target": {
+										"$ref": "AAAAAAGNihz2EJO2yfo="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGO7YeNYCkz1L4=",
+									"_parent": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									},
+									"source": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									},
+									"target": {
+										"$ref": "AAAAAAGO7YXJ4yjSlsk="
+									}
+								}
+							]
 						},
 						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGNiiI/xpYqUC0=",
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGNih5RiZRKT1k=",
 							"_parent": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
+								"$ref": "AAAAAAGNihyXQ5OG2kI="
 							},
-							"name": "HTTP",
-							"source": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
-							},
-							"target": {
-								"$ref": "AAAAAAGNiiAOipThx+A="
-							}
+							"name": "Разбиение на сегменты и отправка",
+							"ownedElements": [
+								{
+									"_type": "UMLInterfaceRealization",
+									"_id": "AAAAAAGNiiAOvJUKDC0=",
+									"_parent": {
+										"$ref": "AAAAAAGNih5RiZRKT1k="
+									},
+									"source": {
+										"$ref": "AAAAAAGNih5RiZRKT1k="
+									},
+									"target": {
+										"$ref": "AAAAAAGNiiAOipThx+A="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGNiiLcz5ZyfAQ=",
+									"_parent": {
+										"$ref": "AAAAAAGNih5RiZRKT1k="
+									},
+									"name": "получить из очереди",
+									"source": {
+										"$ref": "AAAAAAGNiiCCj5VZBCg="
+									},
+									"target": {
+										"$ref": "AAAAAAGNih7rwJR4H9E="
+									}
+								}
+							]
 						},
 						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGNiiJ6J5ZMsC8=",
+							"_type": "UMLInterface",
+							"_id": "AAAAAAGNiiAOipThx+A=",
 							"_parent": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
+								"$ref": "AAAAAAGNihyXQ5OG2kI="
 							},
-							"name": "WebSocket",
-							"source": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
-							},
-							"target": {
-								"$ref": "AAAAAAGNihz2EJO2yfo="
-							}
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGO7YeNYCkz1L4=",
-							"_parent": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
-							},
-							"source": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
-							},
-							"target": {
-								"$ref": "AAAAAAGO7YXJ4yjSlsk="
-							}
-						}
-					]
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGNih3HzpQaAkw=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Сервис кодирования и эмуляция межпланетной передачи",
-					"ownedElements": [
-						{
-							"_type": "UMLInterfaceRealization",
-							"_id": "AAAAAAGNiiBNjZVG5UQ=",
-							"_parent": {
-								"$ref": "AAAAAAGNih3HzpQaAkw="
-							},
-							"source": {
-								"$ref": "AAAAAAGNih3HzpQaAkw="
-							},
-							"target": {
-								"$ref": "AAAAAAGNiiBNWpUdfBI="
-							}
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGNiiH3Z5YHn6s=",
-							"_parent": {
-								"$ref": "AAAAAAGNih3HzpQaAkw="
-							},
-							"name": "HTTP",
-							"source": {
-								"$ref": "AAAAAAGNih3HzpQaAkw="
-							},
-							"target": {
-								"$ref": "AAAAAAGNiiCjJ5WC65k="
-							}
-						}
-					]
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGNih5RiZRKT1k=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Разбиение на сегменты и отправка",
-					"ownedElements": [
-						{
-							"_type": "UMLInterfaceRealization",
-							"_id": "AAAAAAGNiiAOvJUKDC0=",
-							"_parent": {
-								"$ref": "AAAAAAGNih5RiZRKT1k="
-							},
-							"source": {
-								"$ref": "AAAAAAGNih5RiZRKT1k="
-							},
-							"target": {
-								"$ref": "AAAAAAGNiiAOipThx+A="
-							}
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGNiiLcz5ZyfAQ=",
-							"_parent": {
-								"$ref": "AAAAAAGNih5RiZRKT1k="
-							},
-							"name": "получить из очереди",
-							"source": {
-								"$ref": "AAAAAAGNiiCCj5VZBCg="
-							},
-							"target": {
-								"$ref": "AAAAAAGNih7rwJR4H9E="
-							}
-						}
-					]
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGNih7rwJR4H9E=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Kafka"
-				},
-				{
-					"_type": "UMLInterface",
-					"_id": "AAAAAAGNih8i05SkexQ=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Receive (сообщение)"
-				},
-				{
-					"_type": "UMLInterface",
-					"_id": "AAAAAAGNiiAOipThx+A=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Send (сообщение)"
-				},
-				{
-					"_type": "UMLInterface",
-					"_id": "AAAAAAGNiiBNWpUdfBI=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Code (сегмент)"
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGNiiCCj5VZBCg=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Consumer Сборка сегментов",
-					"ownedElements": [
-						{
-							"_type": "UMLInterfaceRealization",
-							"_id": "AAAAAAGNiiCjWJWroOI=",
-							"_parent": {
-								"$ref": "AAAAAAGNiiCCj5VZBCg="
-							},
-							"source": {
-								"$ref": "AAAAAAGNiiG0o5XJF9w="
-							},
-							"target": {
-								"$ref": "AAAAAAGNiiCjJ5WC65k="
-							}
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGNiiIy+pYZrZQ=",
-							"_parent": {
-								"$ref": "AAAAAAGNiiCCj5VZBCg="
-							},
-							"name": "HTTP",
-							"source": {
-								"$ref": "AAAAAAGNiiCCj5VZBCg="
-							},
-							"target": {
-								"$ref": "AAAAAAGNih8i05SkexQ="
-							}
-						}
-					]
-				},
-				{
-					"_type": "UMLInterface",
-					"_id": "AAAAAAGNiiCjJ5WC65k=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Transfer (сегмент)"
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGNiiG0o5XJF9w=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Producer Получение сегментов",
-					"ownedElements": [
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGNiiHs2JX2or0=",
-							"_parent": {
-								"$ref": "AAAAAAGNiiG0o5XJF9w="
-							},
-							"name": "HTTP",
-							"source": {
-								"$ref": "AAAAAAGNih5RiZRKT1k="
-							},
-							"target": {
-								"$ref": "AAAAAAGNiiBNWpUdfBI="
-							}
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGNiiKwHZZgMpU=",
-							"_parent": {
-								"$ref": "AAAAAAGNiiG0o5XJF9w="
-							},
-							"name": "поместить в очередь",
-							"source": {
-								"$ref": "AAAAAAGNiiG0o5XJF9w="
-							},
-							"target": {
-								"$ref": "AAAAAAGNih7rwJR4H9E="
-							}
-						}
-					]
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGO7YXJ4yjSlsk=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "React приложение",
-					"ownedElements": [
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGO7YeY5ClEVkA=",
-							"_parent": {
-								"$ref": "AAAAAAGO7YXJ4yjSlsk="
-							},
-							"name": "WebSocket",
-							"source": {
-								"$ref": "AAAAAAGO7YXJ4yjSlsk="
-							},
-							"target": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
-							}
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGO7YkB9ylzcww=",
-							"_parent": {
-								"$ref": "AAAAAAGO7YXJ4yjSlsk="
-							},
-							"source": {
-								"$ref": "AAAAAAGO7YXJ4yjSlsk="
-							},
-							"target": {
-								"$ref": "AAAAAAGNih1UjpPjbSQ="
-							}
+							"name": "Send (сообщение)"
 						}
 					]
 				},
@@ -6033,7 +6000,32 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "iPhone Земля"
+					"name": "iPhone Земля",
+					"ownedElements": [
+						{
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGNihz2EJO2yfo=",
+							"_parent": {
+								"$ref": "AAAAAAGUwZ5CfuRnY0c="
+							},
+							"name": "React приложение",
+							"ownedElements": [
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGNiiJwuZY7EOs=",
+									"_parent": {
+										"$ref": "AAAAAAGNihz2EJO2yfo="
+									},
+									"source": {
+										"$ref": "AAAAAAGO7YXJ4yjSlsk="
+									},
+									"target": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									}
+								}
+							]
+						}
+					]
 				},
 				{
 					"_type": "UMLNode",
@@ -6041,7 +6033,46 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "HONOR Земля"
+					"name": "HONOR Земля",
+					"ownedElements": [
+						{
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGO7YXJ4yjSlsk=",
+							"_parent": {
+								"$ref": "AAAAAAGUwZ75oeSX7sc="
+							},
+							"name": "React приложение",
+							"ownedElements": [
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGO7YeY5ClEVkA=",
+									"_parent": {
+										"$ref": "AAAAAAGO7YXJ4yjSlsk="
+									},
+									"name": "WebSocket",
+									"source": {
+										"$ref": "AAAAAAGO7YXJ4yjSlsk="
+									},
+									"target": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									}
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGO7YkB9ylzcww=",
+									"_parent": {
+										"$ref": "AAAAAAGO7YXJ4yjSlsk="
+									},
+									"source": {
+										"$ref": "AAAAAAGO7YXJ4yjSlsk="
+									},
+									"target": {
+										"$ref": "AAAAAAGNih1UjpPjbSQ="
+									}
+								}
+							]
+						}
+					]
 				},
 				{
 					"_type": "UMLNode",
@@ -6049,52 +6080,31 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Galaxy Марс"
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGUwaB3r+T3Zc0=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "React приложение",
+					"name": "Galaxy Марс",
 					"ownedElements": [
 						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGUwaNGEeWEDGc=",
+							"_type": "UMLComponent",
+							"_id": "AAAAAAGUwaB3r+T3Zc0=",
 							"_parent": {
-								"$ref": "AAAAAAGUwaB3r+T3Zc0="
+								"$ref": "AAAAAAGUwZ9HfeTBdWM="
 							},
-							"name": "WebSocket",
-							"source": {
-								"$ref": "AAAAAAGUwaB3r+T3Zc0="
-							},
-							"target": {
-								"$ref": "AAAAAAGUwaGZSeU1e6Y="
-							}
-						}
-					]
-				},
-				{
-					"_type": "UMLComponent",
-					"_id": "AAAAAAGUwaGZSeU1e6Y=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Веб-сокет сервер Марс:8002",
-					"ownedElements": [
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGUwaM2U+VzPCI=",
-							"_parent": {
-								"$ref": "AAAAAAGUwaGZSeU1e6Y="
-							},
-							"source": {
-								"$ref": "AAAAAAGUwaGZSeU1e6Y="
-							},
-							"target": {
-								"$ref": "AAAAAAGUwaB3r+T3Zc0="
-							}
+							"name": "React приложение",
+							"ownedElements": [
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGUwaNGEeWEDGc=",
+									"_parent": {
+										"$ref": "AAAAAAGUwaB3r+T3Zc0="
+									},
+									"name": "WebSocket",
+									"source": {
+										"$ref": "AAAAAAGUwaB3r+T3Zc0="
+									},
+									"target": {
+										"$ref": "AAAAAAGUwaGZSeU1e6Y="
+									}
+								}
+							]
 						}
 					]
 				}
