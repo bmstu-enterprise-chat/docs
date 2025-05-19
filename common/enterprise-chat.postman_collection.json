@@ -1,0 +1,522 @@
+{
+	"info": {
+		"_postman_id": "819f2bb9-551a-4695-91d1-94c710a2c299",
+		"name": "enterprise-chat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39492301"
+	},
+	"item": [
+		{
+			"name": "transport-layer",
+			"item": [
+				{
+					"name": "transfer",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"segment_number\": 1,\n    \"total_segments\": 1,\n    \"sender\": \"test_user\",\n    \"send_time\": \"2024-05-22T02:34:49Z\",\n    \"payload\": \"Hello, world!\"\n}\n\n// {\n//     \"segment_number\": 2,\n//     \"total_segments\": 2,\n//     \"sender\": \"test_user\",\n//     \"send_time\": \"2024-05-22T02:34:49Z\",\n//     \"payload\": \"Hello, world2!\"\n// }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/transfer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"transfer"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "ok",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"segment_number\": 1,\n    \"total_segments\": 2,\n    \"sender\": \"test_user\",\n    \"send_time\": \"2024-05-22T02:34:49Z\",\n    \"payload\": \"Hello, world!\"\n}\n\n// {\n//     \"segment_number\": 2,\n//     \"total_segments\": 2,\n//     \"sender\": \"test_user\",\n//     \"send_time\": \"2024-05-22T02:34:49Z\",\n//     \"payload\": \"Hello, world2!\"\n// }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/transfer",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"transfer"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 19 May 2025 02:17:48 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "74"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/plain; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "Сегмент принят и успешно отправлен в Kafka\n"
+						}
+					]
+				},
+				{
+					"name": "send",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"sender\": \"username\",\n    \"data\": \"The interface is implemented on React + Redux Toolkit + Axios + MUI, the design should copy the site of a Russian company. It represents a chat window with the ability to enter a text message or send a file.\",\n    \"send_time\": \"2024-05-21T02:34:48Z\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/send",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"send"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "ok",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"sender\": \"username\",\n    \"data\": \"The interface is implemented on React + Redux Toolkit + Axios + MUI, the design should copy the site of a Russian company. It represents a chat window with the ability to enter a text message or send a file.\",\n    \"send_time\": \"2024-05-21T02:34:48Z\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/send",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"send"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 19 May 2025 02:18:30 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "99"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/plain; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "Все сегменты успешно отправлены на канальный уровень\n"
+						},
+						{
+							"name": "err",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"sender\": \"username\",\n    \"data\": \"The interface is implemented on React + Redux Toolkit + Axios + MUI, the design should copy the site of a Russian company. It represents a chat window with the ability to enter a text message or send a file.\",\n    \"send_time\": \"2024-05-21T02:34:48Z\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/send",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"send"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain; charset=utf-8"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 19 May 2025 02:18:40 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "190"
+								}
+							],
+							"cookie": [],
+							"body": "сегмент 1 не отправлен: 500 Internal Server Error, ошибка: Во время обработки обнаружена неисправимая ошибка канала\n"
+						},
+						{
+							"name": "lost",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"sender\": \"username\",\n    \"data\": \"The interface is implemented on React + Redux Toolkit + Axios + MUI, the design should copy the site of a Russian company. It represents a chat window with the ability to enter a text message or send a file.\",\n    \"send_time\": \"2024-05-21T02:34:48Z\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/send",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"send"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain; charset=utf-8"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 19 May 2025 02:20:22 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "163"
+								}
+							],
+							"cookie": [],
+							"body": "сегмент 2 не отправлен: 408 Request Timeout, ошибка: Сегмент потерян во время моделирования канала\n"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "channel-layer",
+			"item": [
+				{
+					"name": "code",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"segment_number\": 1,\n    \"total_segments\": 2,\n    \"sender\": \"test_user\",\n    \"send_time\": \"2024-05-22T02:34:49Z\",\n    \"payload\": \"Hello, world!\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/code",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"code"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "ok",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"segment_number\": 1,\n    \"total_segments\": 2,\n    \"sender\": \"test_user\",\n    \"send_time\": \"2024-05-22T02:34:49Z\",\n    \"payload\": \"Hello, world!\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8081/code",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"code"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 19 May 2025 02:15:26 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "245"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"Сегмент обработан канальным уровнем и успешно передан.\",\n    \"transfer_response_body\": \"Сегмент принят и успешно отправлен в Kafka\\n\",\n    \"transfer_status\": \"200 OK\"\n}"
+						},
+						{
+							"name": "err",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"segment_number\": 1,\n    \"total_segments\": 2,\n    \"sender\": \"test_user\",\n    \"send_time\": \"2024-05-22T02:34:49Z\",\n    \"payload\": \"Hello, world!\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8081/code",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"code"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 19 May 2025 02:16:08 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "119"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"Во время обработки обнаружена неисправимая ошибка канала\"\n}"
+						},
+						{
+							"name": "lost",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"segment_number\": 1,\n    \"total_segments\": 2,\n    \"sender\": \"test_user\",\n    \"send_time\": \"2024-05-22T02:34:49Z\",\n    \"payload\": \"Hello, world!\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8081/code",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"code"
+									]
+								}
+							},
+							"status": "Request Timeout",
+							"code": 408,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 19 May 2025 02:17:16 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "98"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"Сегмент потерян во время моделирования канала\"\n}"
+						},
+						{
+							"name": "no tr",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"segment_number\": 1,\n    \"total_segments\": 2,\n    \"sender\": \"test_user\",\n    \"send_time\": \"2024-05-22T02:34:49Z\",\n    \"payload\": \"Hello, world!\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8081/code",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"code"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 19 May 2025 02:16:36 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "205"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"Не удалось отправить сегмент в конечную точку передачи: Post \\\"http://localhost:8080/transfer\\\": dial tcp [::1]:8080: connect: connection refused\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "application-layer",
+			"item": [
+				{
+					"name": "receive",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Sender\": \"username\",\n    \"SendTime\": \"2024-05-21T02:34:48Z\",\n    \"Payload\": \"Tset msg1\",\n    \"Error\": false,\n    \"ErrorMsg\": \"\"\n}\n\n// {\n//     \"Sender\": \"username\",\n//     \"SendTime\": \"2024-05-21T02:34:48Z\",\n//     \"Payload\": \"\",\n//     \"Error\": true,\n//     \"ErrorMsg\": \"Истек таймаут сообщения. Ожидалось 2 сегментов, получено 1.\"\n// } ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8002/receive",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"receive"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
